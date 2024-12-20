@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #61dafb, #21a1f1);
+    background: linear-gradient(135deg, #4caf50,
+        #21a1f1);
     color: white;
     text-align: center;
 }

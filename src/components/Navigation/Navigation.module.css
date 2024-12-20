@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+    gap: 50px;
+}
+
+.activeLink {
+    background-color: #4caf50;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.activeLink:hover {
+    color: #000000;
+    background-color: #218838;
+}

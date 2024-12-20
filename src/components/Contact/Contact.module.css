@@ -1,43 +1,80 @@
 .contact {
+    min-width: 300px;
+    max-width: 300px;
+    width: 100%;
+    /* Заставляем карточку занимать всю ширину контейнера */
+    padding: 8px;
+    /* Отступы внутри карточки */
+    border: 1px solid #ccc;
+    /* Граница для визуального отделения карточек */
+    border-radius: 10px;
+    /* Закругленные углы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Легкая тень для эффекта */
     display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff;
-        padding: 20px;
-        margin: 10px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Используем flexbox для вертикального выравнивания */
+    flex-direction: column;
+    /* Располагаем элементы в колонку */
+    align-items: center;
+    /* Центруем элементы по горизонтали */
+    background-color: #f0f8ff;
+    /* Установите желаемый цвет фона карточки */
 }
 
-.info {
+.avatar {
+    width: 50px;
+    /* Ширина для контейнера аватара */
+    height: 50px;
+    /* Высота для контейнера аватара */
+    background-color: #61dafb;
+    /* Цвет фона для аватара */
+    border-radius: 50%;
+    /* Закругленные углы для круга */
     display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
+    /* Используем флекс для центрирования иконки */
+    align-items: center;
+    /* Центрируем по вертикали */
+    justify-content: center;
+    /* Центрируем по горизонтали */
+    margin-bottom: 10px;
+    /* Отступ снизу для аватара */
 }
 
-.name {
-    font-size: 16px;
-        color: #333;
-        margin: 5px 0;
+.avatarIcon {
+    font-size: 30px;
+    /* Размер иконки */
+    color: white;
+    /* Цвет иконки */
 }
 
-.icon {
-    color: black;
+.containerList {
+    width: 100%;
+    /* Заставляем контейнер занимать всю ширину карточки */
 }
 
-.deleteButton {
-    background-color: #4caf50;
-        border: none;
-        color: white;
-        padding: 10px 20px;
-        font-size: 14px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
+.contactInfo {
+    width: 100%;
+    /* Заставляем текст занимать всю ширину */
+    text-align: center;
+    /* Центрируем текст */
+    font-weight: bolder;
+    margin: 10px 0;
+    font-size: 22px;
+    color: #2c3e50;
 }
 
-.deleteButton:hover,
-.deleteButton:focus {
-    background-color: #45a049;
+.deleteBtn {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.deleteBtn:hover {
+    background-color: #d62839;
 }

@@ -1,0 +1,19 @@
+.appBar {
+    background-color: #282c34;
+    padding: 10px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.appContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appUser {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+.registerPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#4caf50,
+        #21a1f1);
+    color: white;
+    text-align: center;
+}
+
+.registerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 45px;
+    border-radius: 3px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 600px;
+}
